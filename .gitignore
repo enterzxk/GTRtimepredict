@@ -1,0 +1,10 @@
+# Ignore everything by default so only root-level source files are published.
+/*
+
+# Keep repository metadata and documentation.
+!/.gitignore
+!/README.md
+
+# Keep root-level Python source files only.
+!/*.py
+
